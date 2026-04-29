@@ -1,0 +1,136 @@
+nav{
+    background-color: #8DC63F;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    color: #2D4B3E;
+}
+
+.Bloco{
+      color: #2D4B3E;
+      background-color: #8DC63F;
+      position: relative;
+      text-decoration: none;
+      flex: 1;
+      margin-top: 20px;
+      padding: 12px 25px;
+      border-radius: 12px;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      min-width: 250px;
+      height: 120px;
+      transition: 0.4s;
+      width: 20px;
+      display: flex;
+      text-align: center;
+      overflow: visible;
+}
+.Bloco {
+    position: relative;
+    min-width: 200px;
+
+}
+.Bloco {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: visible;
+}
+.Bloco {
+    height: 110px;
+    overflow: hidden;
+    transition: 0.3s;
+    width: 120px;
+   
+
+}
+
+.Bloco:hover {
+    height: 150px;
+
+}
+
+.Bloco h2 {
+    transition: 0.2s;
+
+}
+
+.Bloco:hover h2 {
+    opacity: 0;
+
+}
+
+.Bloco p {
+    position: absolute;
+    opacity: 0;
+    transition: 0.3s;
+
+}
+
+.Bloco:hover p {
+    opacity: 1;
+    align-items: center;
+    justify-content: center;
+
+}
+
+section {
+    max-width: 1000px;
+    margin: 80px auto;
+    padding: 30px;
+    box-shadow: 0 0 10px #8DC63F;
+    border-radius: 12px;
+}
+section{
+    display: flex;
+    gap: 20px;           /* espaço entre os blocos */
+    flex-wrap: wrap;      /* quebra linha se não couber */
+    overflow:auto
+}
+.Bloco:hover {
+    transform:scale(1.1) ;
+    
+}
+body {
+    background-color: #E2F1D0
+
+}
+.lista-lateral {
+    
+    bottom: 20px;      /* agora fica embaixo */
+    left: 50px;        /* canto esquerdo */
+    font-size: large;
+
+   
+    padding: 20px;
+    border-radius: 10px;
+
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+li{
+    padding: 5px;
+}
+.imagem {
+    width: 300px;
+    border-radius: 10px;
+    height: 350px;
+}
+.listas{
+     display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    color: #2D4B3E;
+}
+.firula{
+    border-left: 8px solid green;
+    border-radius: 8px;
+    font-size: 50px;
+    color: #2D4B3E;
+    
+}
+.direitos{
+    text-align: center;
+    color: #2D4B3E;
+}
